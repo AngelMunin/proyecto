@@ -1,0 +1,65 @@
+.container{
+    DISPLAY: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-column-gap: 10PX;
+    background-color:black;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    width:1000px;
+    margin: auto;
+
+}
+.header{
+    width: 100%;
+    grid-column: 1 /4;
+    height: 486px;
+    background-image: url('../img/jhon.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+.menu{
+    overflow: hidden;
+    grid-column: 1/4;
+    background-color: darkgoldenrod
+
+}
+.menu li{
+    grid-column: 1/4;
+    align-items: center;
+    margin-right: 30px;
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 0px 20px 20px 0px;
+    text-decoration: none;
+}
+body{
+    background-color: purple;
+}
+h4{
+    width: 100%;
+    padding: 0px 10px 20px 20px;
+    color: rgb(18, 21, 219);
+}
+h3{
+    color: yellowgreen;
+}
+.resenia{
+    grid-column: 2; 
+
+}
+.sinopsis {
+    grid-column: 1/4;
+    padding: 0% 10% 0% 20%
+
+}
+.sinopsis p{
+    grid-column: 1/4;
+    padding: 0% 10% 0% 0%
+}
+.resenias{
+    grid-column: 2/4;
+}
